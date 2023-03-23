@@ -51,10 +51,13 @@ class _FontsState extends State<Fonts> {
             padding: const EdgeInsets.only(left: 30, right: 30),
             child: TextFormField(
               decoration: InputDecoration(
-                border: OutlineInputBorder(
-                    borderSide:
-                        const BorderSide(color: Colors.black, width: 2.5),
-                    borderRadius: BorderRadius.circular(10.0)),
+                enabledBorder: OutlineInputBorder(
+                    borderSide: const BorderSide(color: Colors.black),
+                    borderRadius: BorderRadius.circular(5.5)),
+                focusedBorder: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(5.5),
+                  borderSide: const BorderSide(color: Colors.black),
+                ),
                 labelText: "Escreva aqui",
                 labelStyle: const TextStyle(color: Colors.black),
               ),
@@ -78,10 +81,13 @@ class _FontsState extends State<Fonts> {
             padding: const EdgeInsets.only(left: 30, right: 30),
             child: TextFormField(
               decoration: InputDecoration(
-                border: OutlineInputBorder(
-                    borderSide:
-                        const BorderSide(color: Colors.black, width: 2.5),
-                    borderRadius: BorderRadius.circular(10.0)),
+                enabledBorder: OutlineInputBorder(
+                    borderSide: const BorderSide(color: Colors.black),
+                    borderRadius: BorderRadius.circular(5.5)),
+                focusedBorder: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(5.5),
+                  borderSide: const BorderSide(color: Colors.black),
+                ),
                 labelText: "Escreva aqui",
                 labelStyle: const TextStyle(color: Colors.black),
               ),
@@ -106,10 +112,13 @@ class _FontsState extends State<Fonts> {
             padding: const EdgeInsets.only(left: 30, right: 30),
             child: TextFormField(
               decoration: InputDecoration(
-                border: OutlineInputBorder(
-                    borderSide:
-                        const BorderSide(color: Colors.black, width: 2.5),
-                    borderRadius: BorderRadius.circular(10.0)),
+                enabledBorder: OutlineInputBorder(
+                    borderSide: const BorderSide(color: Colors.black),
+                    borderRadius: BorderRadius.circular(5.5)),
+                focusedBorder: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(5.5),
+                  borderSide: const BorderSide(color: Colors.black),
+                ),
                 labelText: "Escreva aqui",
                 labelStyle: const TextStyle(color: Colors.black),
               ),
